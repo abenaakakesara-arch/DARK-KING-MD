@@ -1,10 +1,13 @@
 const {
 default: makeWASocket,
-useMultiFileAuthState
+useMultiFileAuthState,
+downloadMediaMessage
 } = require("@whiskeysockets/baileys");
 
 const P = require("pino");
 const qrcode = require("qrcode-terminal");
+const fs = require("fs-extra");
+const { Sticker } = require("wa-sticker-formatter");
 
 async function startBot() {
 
@@ -31,7 +34,7 @@ console.log("✅ DARK-KING-MD Connected");
 
 sock.ev.on("creds.update", saveCreds);
 
-/* AUTO REPLY */
+/* MESSAGES */
 
 sock.ev.on("messages.upsert", async ({ messages }) => {
 
@@ -39,19 +42,15 @@ const msg = messages[0];
 
 if (!msg.message) return;
 
+const sender = msg.key.remoteJid;
+
 const messageText =
 msg.message.conversation ||
 msg.message.extendedTextMessage?.text;
 
-const sender = msg.key.remoteJid;
+/* AUTO REPLY */
 
-if (!messageText) return;
-
-console.log("Message :", messageText);
-
-/* REPLIES */
-
-if (messageText.toLowerCase() === "hi") {
+if (messageText?.toLowerCase() === "hi") {
 
 await sock.sendMessage(sender, {
 text: "👋 Hello Welcome To DARK-KING-MD"
@@ -59,26 +58,51 @@ text: "👋 Hello Welcome To DARK-KING-MD"
 
 }
 
-if (messageText.toLowerCase() === "menu") {
+/* STICKER COMMAND */
+
+if (
+messageText?.toLowerCase() === ".s" &&
+msg.message.extendedTextMessage?.contextInfo?.quotedMessage?.imageMessage
+) {
+
+try {
+
+const quoted =
+msg.message.extendedTextMessage.contextInfo;
+
+const buffer = await downloadMediaMessage(
+{
+message: quoted.quotedMessage
+},
+"buffer",
+{},
+{
+logger: P({ level: "silent" }),
+reuploadRequest: sock.updateMediaMessage
+}
+);
+
+const sticker = new Sticker(buffer, {
+pack: "DARK-KING-MD",
+author: "Rukshan",
+type: "full"
+});
+
+const stickerBuffer = await sticker.toBuffer();
 
 await sock.sendMessage(sender, {
-text:
-`🌟 DARK-KING-MD MENU 🌟
+sticker: stickerBuffer
+});
 
-1️⃣ alive
-2️⃣ owner
-3️⃣ ping
+} catch (err) {
 
-Type Command`
+console.log(err);
+
+await sock.sendMessage(sender, {
+text: "❌ Sticker Create Failed"
 });
 
 }
-
-if (messageText.toLowerCase() === "alive") {
-
-await sock.sendMessage(sender, {
-text: "✅ Bot Is Running Successfully"
-});
 
 }
 
