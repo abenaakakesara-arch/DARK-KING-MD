@@ -7,11 +7,23 @@
 </a>
 
 <a href="https://your-pair-site.vercel.app">
-<img title="PAIR CODE" src="https://img.shields.io/badge/PAIR%20CODE-green?style=for-the-badge&logo=whatsapp">
+<img title="PAIR CODE" src="https://img.shields.io/badge/GET%20PAIR%20CODE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+</a>
+
+<a href="https://railway.app/new">
+<img title="DEPLOY ON RAILWAY" src="https://img.shields.io/badge/DEPLOY%20ON-RAILWAY-purple?style=for-the-badge&logo=railway">
+</a>
+
+<a href="https://render.com">
+<img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/DEPLOY%20ON-RENDER-black?style=for-the-badge&logo=render">
+</a>
+
+<a href="https://wa.me/94742420974">
+<img title="OWNER CONTACT" src="https://img.shields.io/badge/OWNER%20CONTACT-RUKSHAN-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
 <a href="https://github.com/YOUR_USERNAME">
-<img title="DEVELOPED BY RUKSHAN" src="https://img.shields.io/badge/DEVELOPED%20BY-RUKSHAN-red?style=for-the-badge">
+<img title="DEVELOPED BY RUKSHAN" src="https://img.shields.io/badge/DEVELOPED%20BY-RUKSHAN-blue?style=for-the-badge">
 </a>
 
 </div>
@@ -31,8 +43,8 @@
 - ✅ Owner Command
 - ✅ Menu Command
 - ✅ Auto Reconnect
-- ✅ Group Commands
 - ✅ Anti Delete
+- ✅ Group Commands
 - ✅ Easy Deployment
 
 ---
@@ -113,18 +125,29 @@ npm start
 
 # 🚀 DEPLOYMENT
 
-## RAILWAY
+<div align="center">
 
-- Fork Repo
-- Connect GitHub
-- Deploy
+<a href="https://railway.app/new">
+<img src="https://img.shields.io/badge/DEPLOY%20ON-RAILWAY-purple?style=for-the-badge&logo=railway">
+</a>
 
-## RENDER
+<a href="https://render.com">
+<img src="https://img.shields.io/badge/DEPLOY%20ON-RENDER-black?style=for-the-badge&logo=render">
+</a>
 
-- Create Web Service
-- Connect Repo
-- Add Variables
-- Deploy
+</div>
+
+---
+
+# 👑 OWNER CONTACT
+
+<div align="center">
+
+<a href="https://wa.me/94742420974">
+<img src="https://img.shields.io/badge/OWNER%20CONTACT-RUKSHAN-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+</a>
+
+</div>
 
 ---
 
@@ -143,9 +166,14 @@ npm start
 # ⚠️ DISCLAIMER
 
 This Bot Is Made For Educational Purposes Only.
+Use At Your Own Risk.
 
 ---
 
 # 🌟 SUPPORT
 
 Give A ⭐ To Support DARK-KING-MD
+
+---
+
+# ❤️ THANK YOU FOR USING DARK-KING-MD
