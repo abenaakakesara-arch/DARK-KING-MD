@@ -2,6 +2,5 @@ services:
   - type: web
     name: dark-king-md
     env: node
-    plan: free
     buildCommand: npm install
     startCommand: npm start
