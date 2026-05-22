@@ -3,19 +3,11 @@
 <div align="center">
 
 <a href="https://github.com/YOUR_USERNAME/dark-king-md/fork">
-<img title="FORK DARK-KING-MD" src="https://img.shields.io/badge/FORK%20REPO-black?style=for-the-badge&logo=github">
-</a>
-
-<a href="https://dark-king-pair.vercel.app">
-<img title="PAIR CODE" src="https://img.shields.io/badge/GET%20PAIR%20CODE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+<img title="FORK REPO" src="https://img.shields.io/badge/FORK%20REPO-black?style=for-the-badge&logo=github">
 </a>
 
 <a href="https://railway.app/new">
-<img title="DEPLOY ON RAILWAY" src="https://img.shields.io/badge/DEPLOY%20ON-RAILWAY-purple?style=for-the-badge&logo=railway">
-</a>
-
-<a href="https://render.com">
-<img title="DEPLOY ON RENDER" src="https://img.shields.io/badge/DEPLOY%20ON-RENDER-black?style=for-the-badge&logo=render">
+<img title="DEPLOY ON RAILWAY" src="https://img.shields.io/badge/DEPLOY%20NOW-RAILWAY-purple?style=for-the-badge&logo=railway">
 </a>
 
 <a href="https://wa.me/94742420974">
@@ -32,28 +24,24 @@
 
 # ✨ FEATURES
 
-- ✅ Pair Code System
-- ✅ Auto Status Seen
-- ✅ Auto Voice Reply
-- ✅ Sticker Command
-- ✅ Song Download
-- ✅ Video Download
+- ✅ Railway QR Login
+- ✅ WhatsApp Linked Device
+- ✅ Auto Reconnect
 - ✅ Alive Command
 - ✅ Ping Command
 - ✅ Owner Command
 - ✅ Menu Command
-- ✅ Auto Reconnect
+- ✅ Sticker Command
 - ✅ Anti Delete
-- ✅ Group Commands
-- ✅ Easy Deployment
+- ✅ Easy Deploy
 
 ---
 
 # 📦 INSTALLATION
 
-## 1️⃣ Fork This Repo
+## 1️⃣ Fork Repo
 
-Click The Fork Button Above.
+Click Fork Button Above.
 
 ---
 
@@ -74,38 +62,61 @@ npm install
 
 ---
 
-## 4️⃣ Configure Bot
-
-Create `.env` File And Add:
+## 4️⃣ Configure `.env`
 
 ```env
 OWNER_NAME=Rukshan
 OWNER_NUMBER=94742420974
 BOT_NAME=DARK-KING-MD
 PREFIX=.
-PAIR_CODE=true
-SESSION_ID=
 ```
 
 ---
 
-## 5️⃣ Start Bot
-
-```bash
-npm start
-```
-
----
-
-# 🔑 PAIR CODE
+# 🚀 DEPLOY ON RAILWAY
 
 <div align="center">
 
-<a href="https://dark-king-pair.vercel.app">
-<img src="https://img.shields.io/badge/GET%20PAIR%20CODE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+<a href="https://railway.app/new">
+<img src="https://img.shields.io/badge/DEPLOY%20ON-RAILWAY-purple?style=for-the-badge&logo=railway">
 </a>
 
 </div>
+
+---
+
+# 📌 HOW TO GET QR CODE FROM RAILWAY
+
+## 1️⃣ Deploy Bot On Railway
+
+After Deploy Open:
+
+```txt
+Project → Deployments → View Logs
+```
+
+---
+
+## 2️⃣ QR Code Will Show In Logs
+
+Example:
+
+```bash
+📌 SCAN QR CODE
+WhatsApp ➜ Linked Devices ➜ Link A Device
+```
+
+QR Code Appears Automatically ✅
+
+---
+
+## 3️⃣ Scan QR
+
+Open WhatsApp:
+
+- Linked Devices
+- Link A Device
+- Scan Railway QR Code
 
 ---
 
@@ -115,27 +126,8 @@ npm start
 |----------|-------------|
 | `.alive` | Check Bot Online |
 | `.ping` | Check Bot Speed |
-| `.menu` | Show Bot Menu |
+| `.menu` | Show Menu |
 | `.owner` | Owner Details |
-| `.song` | Download Songs |
-| `.video` | Download Videos |
-| `.sticker` | Create Stickers |
-
----
-
-# 🚀 DEPLOYMENT
-
-<div align="center">
-
-<a href="https://railway.app/new">
-<img src="https://img.shields.io/badge/DEPLOY%20ON-RAILWAY-purple?style=for-the-badge&logo=railway">
-</a>
-
-<a href="https://render.com">
-<img src="https://img.shields.io/badge/DEPLOY%20ON-RENDER-black?style=for-the-badge&logo=render">
-</a>
-
-</div>
 
 ---
 
@@ -144,7 +136,7 @@ npm start
 <div align="center">
 
 <a href="https://wa.me/94742420974">
-<img src="https://img.shields.io/badge/OWNER%20CONTACT-RUKSHAN-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
+<img src="https://img.shields.io/badge/CHAT%20OWNER-WHATSAPP-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
 </div>
@@ -163,17 +155,6 @@ npm start
 
 ---
 
-# ⚠️ DISCLAIMER
-
-This Bot Is Made For Educational Purposes Only.
-Use At Your Own Risk.
-
----
-
 # 🌟 SUPPORT
 
 Give A ⭐ To Support DARK-KING-MD
-
----
-
-# ❤️ THANK YOU FOR USING DARK-KING-MD
