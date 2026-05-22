@@ -6,7 +6,7 @@
 <img title="FORK DARK-KING-MD" src="https://img.shields.io/badge/FORK%20REPO-black?style=for-the-badge&logo=github">
 </a>
 
-<a href="https://your-pair-site.vercel.app">
+<a href="https://dark-king-pair.vercel.app">
 <img title="PAIR CODE" src="https://img.shields.io/badge/GET%20PAIR%20CODE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
@@ -101,7 +101,7 @@ npm start
 
 <div align="center">
 
-<a href="https://your-pair-site.vercel.app">
+<a href="https://dark-king-pair.vercel.app">
 <img src="https://img.shields.io/badge/GET%20PAIR%20CODE-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
